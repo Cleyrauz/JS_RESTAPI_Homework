@@ -1,0 +1,23 @@
+{
+  "name": "JS_RESTAPI_Homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleyrauz/JS_RESTAPI_Homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cleyrauz/JS_RESTAPI_Homework/issues"
+  },
+  "homepage": "https://github.com/Cleyrauz/JS_RESTAPI_Homework#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
