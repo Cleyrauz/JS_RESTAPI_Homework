@@ -1,7 +1,12 @@
 const express = require('express');
 const beachRouter = new express.Router();
 
-let beaches = ["Fidden Bay,", "Assynt", "Morar", "Sanna Sands"];
+let beaches = [
+  {name: "Fidden Bay,"},
+  {name: "Assynt"},
+  {name: "Morar"},
+  {name: "Sanna Sands"}
+];
 
 
 //index

@@ -1,7 +1,12 @@
 const express = require('express');
 const mountainRouter = new express.Router();
 
-let mountains = ["Ben Nevis", "Stac Pollaidh", "Suilven", "Ben Lomonds"]
+let mountains = [
+  {name: "Ben Nevis"},
+  {name: "Stac Pollaidh"},
+  {name: "Suilven"},
+  {name: "Ben Lomonds"}
+];
 
 //show
 mountainRouter.get('/', function(req, res){
