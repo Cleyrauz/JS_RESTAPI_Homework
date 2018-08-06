@@ -2,6 +2,7 @@ const express = require('express');
 const router = new express.Router();
 
 router.use('/beaches', require('./beaches'));
+router.use('/mountains', require('./mountains'));
 
 router.get('/', function(req, res){
   res.json({data: "Welcome!"});
